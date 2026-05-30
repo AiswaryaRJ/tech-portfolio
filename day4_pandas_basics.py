@@ -25,4 +25,4 @@ print("-"*40)
 print("Executing the Velocity Column (Returns a Series): ")
 
 print(df["Velocity_kmh"])
-
+print("-"*40)
