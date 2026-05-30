@@ -14,7 +14,7 @@ telemetry_data = {
 
 }
 
-df = pd.DataFrame(telemetry_data)
+df = pd.DataFrame(telemetry_data, index=["A", "B", "C", "D"])
 
 print("2. Formatted pandas DataFrame: ")
 
@@ -26,4 +26,3 @@ print("Executing the Velocity Column (Returns a Series): ")
 
 print(df["Velocity_kmh"])
 
-print("-"*40)
